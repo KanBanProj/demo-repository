@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IntroSE.ForumSystem.Backend.ServiceLayer
+namespace IntroSE.KanBan.Backend.ServiceLayer
 {
 	public class UserServices
 	{
