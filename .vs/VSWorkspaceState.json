@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\KanBan",
+    "\\KanBan\\Backend",
+    "\\KanBan\\Backend\\ServiceLayer"
   ],
+  "SelectedNode": "\\KanBan\\Backend\\ServiceLayer\\Response.cs",
   "PreviewInSolutionExplorer": false
 }
