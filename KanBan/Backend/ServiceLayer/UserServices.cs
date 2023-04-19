@@ -1,10 +1,13 @@
 ﻿using System;
 
-public class UserServices
+namespace IntroSE.ForumSystem.Backend.ServiceLayer
 {
+	public class UserServices
+	{
 
-	public login(email:String, password:string);
+		public login(email:String, password:string);
 
-	public Registere(email:String, password:String);
-	public logout(email:String);
+		public Registere(email:String, password:String);
+		public logout(email:String);
+	}
 }
