@@ -1,4 +1,4 @@
-﻿using System.Text.Json
+﻿using System.Text.Json;
 using System;
 namespace IntroSE.KanBan.Backend.ServiceLayer
 {
@@ -13,6 +13,22 @@ namespace IntroSE.KanBan.Backend.ServiceLayer
         private int loc;
 
         public string ChangeTittle(string Tittle)
+        {
+            return JsonSerializer.Serialize(new Response("not emplemented yet"));
+        }
+
+        public string ChangeDescreptioon(string Descreption)
+        {
+            
+            return JsonSerializer.Serialize(new Response("not emplemented yet"));
+            
+        }
+        public string ChangeCol()
+        {
+            return JsonSerializer.Serialize(new Response("not emplemented yet"));
+        }
+
+        public string ChangeDueDate(string Date)
         {
             return JsonSerializer.Serialize(new Response("not emplemented yet"));
         }
