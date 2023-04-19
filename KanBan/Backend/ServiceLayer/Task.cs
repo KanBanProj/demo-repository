@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Text.Json;
+using System;
 namespace IntroSE.KanBan.Backend.ServiceLayer
 {
 	public class Task
@@ -11,9 +12,25 @@ namespace IntroSE.KanBan.Backend.ServiceLayer
         private string CreationTime;
         private int loc;
 
-        public Response ChangeTittle(string Tittle)
+        public string ChangeTittle(string Tittle)
         {
-            return new Response("not emplemented yet");
+            return JsonSerializer.Serialize(new Response("not emplemented yet"));
+        }
+
+        public string ChangeDescreptioon(string Descreption)
+        {
+            
+            return JsonSerializer.Serialize(new Response("not emplemented yet"));
+            
+        }
+        public string ChangeCol()
+        {
+            return JsonSerializer.Serialize(new Response("not emplemented yet"));
+        }
+
+        public string ChangeDueDate(string Date)
+        {
+            return JsonSerializer.Serialize(new Response("not emplemented yet"));
         }
     }
 }
